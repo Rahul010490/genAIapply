@@ -1,0 +1,16 @@
+# Output and log files
+*.log
+*.html
+debug_output.txt
+parsed_content.html
+page_elements.txt
+scraping_log.txt
+
+# Generated job files
+Jobs/*.csv
+output_*.csv
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
