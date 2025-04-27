@@ -1,0 +1,35 @@
+=== LinkedIn Scraping Log ===
+
+Searching for job containers...
+Found container with selector: div.jobs-search-results-list
+Container HTML:
+<div class="jobs-search-results-list">
+ <div class="job-card-container">
+  <h3 class="base-search-card__title">
+   Software Engineer
+  </h3>
+  <a class="base-card__full-link" href="https://www.linkedin.com/jobs/view/123456">
+   View Job
+  </a>
+ </div>
+</div>
+
+---
+
+Found 1 cards using div.job-card-container
+
+First job card structure:
+Classes: ['job-card-container']
+HTML Content:
+<div class="job-card-container">
+ <h3 class="base-search-card__title">
+  Software Engineer
+ </h3>
+ <a class="base-card__full-link" href="https://www.linkedin.com/jobs/view/123456">
+  View Job
+ </a>
+</div>
+
+Available elements:
+h3: ['base-search-card__title']
+a: ['base-card__full-link']

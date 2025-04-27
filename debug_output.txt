@@ -1,0 +1,37 @@
+=== LinkedIn Job Scraper Debug Output ===
+
+Raw HTML Source:
+<div class="jobs-search-results-list">
+ <div class="job-card-container">
+  <h3 class="base-search-card__title">
+   Software Engineer
+  </h3>
+  <a class="base-card__full-link" href="https://www.linkedin.com/jobs/view/123456">
+   View Job
+  </a>
+ </div>
+</div>
+
+
+=== Found Elements ===
+
+=== Job 1 Details ===
+Title: Software Engineer
+Company: Company not listed
+Location: Location not listed
+URL: https://www.linkedin.com/jobs/view/123456
+Raw HTML:
+<div class="job-card-container">
+ <h3 class="base-search-card__title">
+  Software Engineer
+ </h3>
+ <a class="base-card__full-link" href="https://www.linkedin.com/jobs/view/123456">
+  View Job
+ </a>
+</div>
+
+---
+
+Job Description:
+Mock description
+---
